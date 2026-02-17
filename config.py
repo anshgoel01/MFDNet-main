@@ -22,7 +22,7 @@ class Config(object):
         # ---------------------------------------------------
         self._C.MODEL = CN()
         self._C.MODEL.MODE = 'global'
-        self._C.MODEL.SESSION = 'RainDS_MFDNet'
+        self._C.MODEL.SESSION = 'GT_Rain_MFDNet'
 
         # ---------------------------------------------------
         # OPTIMIZATION
@@ -44,8 +44,9 @@ class Config(object):
         self._C.TRAINING.SAVE_IMAGES = False
 
         # ✅ IMPORTANT — dataset root (NOT train_set)
-        self._C.TRAINING.TRAIN_DIR = r"D:/capstone/RainDS/RainDS_real"
-        self._C.TRAINING.VAL_DIR   = r"D:/capstone/RainDS/RainDS_real"
+        self._C.TRAINING.TRAIN_DIR = "/content/MFDNet-main/GT-RAIN_train"
+        self._C.TRAINING.VAL_DIR   = "/content/MFDNet-main/GT-RAIN_train"
+
 
         self._C.TRAINING.SAVE_DIR = "checkpoints"
 
