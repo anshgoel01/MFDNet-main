@@ -23,8 +23,8 @@ TRAINING:
   VAL_PS: null           # Full-resolution validation
 
   # ✅ IMPORTANT → Dataset ROOT (not train_set)
-  TRAIN_DIR: "D:/capstone/RainDS/RainDS_real"
-  VAL_DIR:   "D:/capstone/RainDS/RainDS_real"
+  TRAIN_DIR: /content/MFDNet-main/GT-RAIN_train
+  VAL_DIR: /content/MFDNet-main/GT-RAIN_train
 
   SAVE_DIR: "./checkpoints"
 
