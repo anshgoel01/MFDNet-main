@@ -26,6 +26,7 @@ TRAINING:
   TRAIN_DIR: /content/MFDNet-main/GT-RAIN_train
   VAL_DIR: /content/MFDNet-main/GT-RAIN_train
 
+
   SAVE_DIR: "./checkpoints"
 
   SAVE_AFTER_EVERY: 10   # Save checkpoint every 10 epochs
